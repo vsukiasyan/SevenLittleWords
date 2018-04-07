@@ -15,6 +15,7 @@
 		671C6BE12078304100B24A4D /* SevenLittleWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C6BE02078304100B24A4D /* SevenLittleWordsTests.swift */; };
 		671C6BEC2078304100B24A4D /* SevenLittleWordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C6BEB2078304100B24A4D /* SevenLittleWordsUITests.swift */; };
 		671C6BFA20783A5300B24A4D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 671C6BF920783A5300B24A4D /* README.md */; };
+		671C6BFD2078472800B24A4D /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 671C6BFC2078472800B24A4D /* level1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		671C6BEB2078304100B24A4D /* SevenLittleWordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenLittleWordsUITests.swift; sourceTree = "<group>"; };
 		671C6BED2078304100B24A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		671C6BF920783A5300B24A4D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		671C6BFC2078472800B24A4D /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +102,13 @@
 		671C6BCA2078304100B24A4D /* SevenLittleWords */ = {
 			isa = PBXGroup;
 			children = (
+				671C6BCF2078304100B24A4D /* Main.storyboard */,
 				671C6BCB2078304100B24A4D /* AppDelegate.swift */,
 				671C6BCD2078304100B24A4D /* ViewController.swift */,
-				671C6BCF2078304100B24A4D /* Main.storyboard */,
 				671C6BD22078304100B24A4D /* Assets.xcassets */,
 				671C6BD42078304100B24A4D /* LaunchScreen.storyboard */,
 				671C6BD72078304100B24A4D /* Info.plist */,
+				671C6BFB207846FA00B24A4D /* Levels */,
 			);
 			path = SevenLittleWords;
 			sourceTree = "<group>";
@@ -126,6 +129,14 @@
 				671C6BED2078304100B24A4D /* Info.plist */,
 			);
 			path = SevenLittleWordsUITests;
+			sourceTree = "<group>";
+		};
+		671C6BFB207846FA00B24A4D /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				671C6BFC2078472800B24A4D /* level1.txt */,
+			);
+			path = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				671C6BFD2078472800B24A4D /* level1.txt in Resources */,
 				671C6BD62078304100B24A4D /* LaunchScreen.storyboard in Resources */,
 				671C6BD32078304100B24A4D /* Assets.xcassets in Resources */,
 				671C6BFA20783A5300B24A4D /* README.md in Resources */,
