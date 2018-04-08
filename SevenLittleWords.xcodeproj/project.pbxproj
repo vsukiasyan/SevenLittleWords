@@ -16,6 +16,8 @@
 		671C6BEC2078304100B24A4D /* SevenLittleWordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C6BEB2078304100B24A4D /* SevenLittleWordsUITests.swift */; };
 		671C6BFA20783A5300B24A4D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 671C6BF920783A5300B24A4D /* README.md */; };
 		671C6BFD2078472800B24A4D /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 671C6BFC2078472800B24A4D /* level1.txt */; };
+		671C6C3D207ACFB500B24A4D /* pen-background-hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 671C6C3C207ACFB500B24A4D /* pen-background-hd.jpg */; };
+		671C6C3F207AD1AE00B24A4D /* paper_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 671C6C3E207AD1AE00B24A4D /* paper_bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		671C6BED2078304100B24A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		671C6BF920783A5300B24A4D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		671C6BFC2078472800B24A4D /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		671C6C3C207ACFB500B24A4D /* pen-background-hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pen-background-hd.jpg"; sourceTree = "<group>"; };
+		671C6C3E207AD1AE00B24A4D /* paper_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper_bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 				671C6BD22078304100B24A4D /* Assets.xcassets */,
 				671C6BD42078304100B24A4D /* LaunchScreen.storyboard */,
 				671C6BD72078304100B24A4D /* Info.plist */,
+				671C6C3B207ACF9D00B24A4D /* Images */,
 				671C6BFB207846FA00B24A4D /* Levels */,
 			);
 			path = SevenLittleWords;
@@ -137,6 +142,15 @@
 				671C6BFC2078472800B24A4D /* level1.txt */,
 			);
 			path = Levels;
+			sourceTree = "<group>";
+		};
+		671C6C3B207ACF9D00B24A4D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				671C6C3E207AD1AE00B24A4D /* paper_bg.jpg */,
+				671C6C3C207ACFB500B24A4D /* pen-background-hd.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,9 +261,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				671C6BFD2078472800B24A4D /* level1.txt in Resources */,
+				671C6C3F207AD1AE00B24A4D /* paper_bg.jpg in Resources */,
 				671C6BD62078304100B24A4D /* LaunchScreen.storyboard in Resources */,
 				671C6BD32078304100B24A4D /* Assets.xcassets in Resources */,
 				671C6BFA20783A5300B24A4D /* README.md in Resources */,
+				671C6C3D207ACFB500B24A4D /* pen-background-hd.jpg in Resources */,
 				671C6BD12078304100B24A4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
