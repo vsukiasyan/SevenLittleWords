@@ -1,4 +1,3 @@
-
 //
 //  ViewController.swift
 //  SevenLittleWords
@@ -26,10 +25,12 @@ class ViewController: UIViewController {
             scoreLabel.text = "Score: \(score)"
         }
     }
-    var level = 1
+    var level = 3
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        currentAnswer.isUserInteractionEnabled = false
         
         for subview in view.subviews where subview.tag == 1001 {
             let btn = subview as! UIButton

@@ -18,6 +18,9 @@
 		671C6BFD2078472800B24A4D /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 671C6BFC2078472800B24A4D /* level1.txt */; };
 		671C6C3D207ACFB500B24A4D /* pen-background-hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 671C6C3C207ACFB500B24A4D /* pen-background-hd.jpg */; };
 		671C6C3F207AD1AE00B24A4D /* paper_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 671C6C3E207AD1AE00B24A4D /* paper_bg.jpg */; };
+		677549D9209BB85E0025F0C4 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 677549D8209BB85D0025F0C4 /* level2.txt */; };
+		677549DF209BBECD0025F0C4 /* level3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 677549DE209BBECD0025F0C4 /* level3.txt */; };
+		677549E1209BC0FF0025F0C4 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677549E0209BC0FF0025F0C4 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		671C6BFC2078472800B24A4D /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 		671C6C3C207ACFB500B24A4D /* pen-background-hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pen-background-hd.jpg"; sourceTree = "<group>"; };
 		671C6C3E207AD1AE00B24A4D /* paper_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper_bg.jpg; sourceTree = "<group>"; };
+		677549D8209BB85D0025F0C4 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		677549DE209BBECD0025F0C4 /* level3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level3.txt; sourceTree = "<group>"; };
+		677549E0209BC0FF0025F0C4 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +112,10 @@
 		671C6BCA2078304100B24A4D /* SevenLittleWords */ = {
 			isa = PBXGroup;
 			children = (
-				671C6BCF2078304100B24A4D /* Main.storyboard */,
 				671C6BCB2078304100B24A4D /* AppDelegate.swift */,
 				671C6BCD2078304100B24A4D /* ViewController.swift */,
+				671C6BCF2078304100B24A4D /* Main.storyboard */,
+				677549E0209BC0FF0025F0C4 /* RoundedButton.swift */,
 				671C6BD22078304100B24A4D /* Assets.xcassets */,
 				671C6BD42078304100B24A4D /* LaunchScreen.storyboard */,
 				671C6BD72078304100B24A4D /* Info.plist */,
@@ -140,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				671C6BFC2078472800B24A4D /* level1.txt */,
+				677549D8209BB85D0025F0C4 /* level2.txt */,
+				677549DE209BBECD0025F0C4 /* level3.txt */,
 			);
 			path = Levels;
 			sourceTree = "<group>";
@@ -262,7 +271,9 @@
 			files = (
 				671C6BFD2078472800B24A4D /* level1.txt in Resources */,
 				671C6C3F207AD1AE00B24A4D /* paper_bg.jpg in Resources */,
+				677549D9209BB85E0025F0C4 /* level2.txt in Resources */,
 				671C6BD62078304100B24A4D /* LaunchScreen.storyboard in Resources */,
+				677549DF209BBECD0025F0C4 /* level3.txt in Resources */,
 				671C6BD32078304100B24A4D /* Assets.xcassets in Resources */,
 				671C6BFA20783A5300B24A4D /* README.md in Resources */,
 				671C6C3D207ACFB500B24A4D /* pen-background-hd.jpg in Resources */,
@@ -292,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				671C6BCE2078304100B24A4D /* ViewController.swift in Sources */,
+				677549E1209BC0FF0025F0C4 /* RoundedButton.swift in Sources */,
 				671C6BCC2078304100B24A4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
